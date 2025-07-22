@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+color: rgba(255, 255, 255, 0.8);
+ background-color: #031119;;
+}
+:root {
+    --background-color: #031119;
+    --default-color: rgba(255, 255, 255, 0.8);
+    --heading-color: #e0e9f2;
+    --accent-color: #e3a127;
+    --surface-color: #1b262c;
+    --contrast-color: #ffffff;
+}
+.container {
+    max-width: 1350px;
+    margin: auto;
+    font-family: "Nunito Sans", sans-serif;
+}

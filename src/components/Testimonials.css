@@ -1,0 +1,151 @@
+.testemonial {
+    height: 95vh;
+    width: 100%;
+    color: var(--default-color);
+    background-color: #0d1d26;
+    padding: 60px 0;
+    margin-bottom: 60px;
+}
+.testemonial-p p {
+    opacity: 0.8;
+    font-size: 15px;
+}
+.testemonial-p p::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: var(--accent-color);
+    margin: 4px 10px;
+}
+.testemonial-p span {
+    font-size: 28px;
+    font-weight: 700;
+}
+.testomonials-card {
+    width: 100%;
+    height: 60vh;
+    background-color: #16262f;
+    margin-top: 40px;
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+}
+.testonials-card-inf h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.testonials-card-inf span {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.testonials-card-inf p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    font-style: italic;
+    margin-top: 30px;
+}
+.testonials-card-inf {
+    width: 70%;
+    height: 100%;
+}
+.mini-card {
+    display: flex;
+    gap: 15px;
+    width: 200px;
+    height: 80px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.mini-card-img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.mini-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.mini-card-inf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+
+.mini-card-inf p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--default-color);
+}
+
+.mini-card-inf span {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+.testonials-card-img {
+    width: 30%;
+    height: 100%;
+}
+.testonials-card-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.testemonial .swiper {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testemonial .swiper .swiper-right {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: #1b262c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.testemonial .swiper .swiper-left {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: #1b262c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.testemonial .swiper .swiper-right:hover {
+    background-color: var(--accent-color);
+    color: aliceblue;
+    transition: 0.4s ease;
+}
+.testemonial .swiper .swiper-left:hover {
+    background-color: var(--accent-color);
+    color: aliceblue;
+    transition: 0.4s ease;
+}
